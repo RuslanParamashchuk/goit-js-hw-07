@@ -4,6 +4,7 @@ import { galleryItems } from './gallery-items.js';
 const gallery = document.querySelector(".gallery");
 gallery.addEventListener("click", onShowBigImage);
 
+
 (function createMarkup() {
   const itemMarkup = galleryItems
     .map(({ original, preview, description }) => {
